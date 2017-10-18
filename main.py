@@ -2,7 +2,7 @@ from termanalyzer import TermAnalyzer
 
 
 def main():
-    directory = "./vlogs"
+    directory = "./database"
     termAnalyzer = TermAnalyzer()
     termAnalyzer.analyzeDirectory(directory)
     termAnalyzer.printStats()
